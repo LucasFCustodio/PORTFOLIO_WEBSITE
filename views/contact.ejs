@@ -1,0 +1,43 @@
+<%- include("partials/header.ejs") %>
+<h1>Contact Me 📬</h1>
+
+<div class="main-container">
+    <div id="contact-container">
+        <h3>+1(561)702-5574</h3>
+        <h3>lucasquality555@gmail.com</h3>
+        <h3><a href="https://www.linkedin.com/in/lucas-fracasso-custodio/">LinkedIn Profile</a></h3>
+    </div>
+</div>
+
+<div class="main-container">
+    <h2 id="github-title">GitHub Profile & Projects</h2>
+    <div id="github-container">
+        <h3><a href="https://github.com/LucasFCustodio">GitHub Profile</a></h3>
+        <div class="projects-section" id="projects-section-one">
+            <h3>project 1</h3>
+            <h3>project 2</h3>
+            <h3>project 3</h3>
+        </div>
+        <div class="projects-section" id="projects-section-two">
+            <h3>project 4</h3>
+            <h3>project 5</h3>
+            <h3>project 6</h3>
+        </div>
+    </div>
+</div>
+
+<div id="main-container">
+    <form action="/submit" method="POST">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="John">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Doe">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="johndoe@example.com">
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" placeholder="Your company name">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</div>

@@ -1,0 +1,35 @@
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+}
+
+#contact-container {
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+}
+
+#github-container {
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-container {
+    padding: 40px 250px 60px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#github-title {
+    text-align: center;
+}
+
+input:focus {
+    background-color: #ADFAF6;
+}
