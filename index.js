@@ -27,7 +27,7 @@ app.get("/professional-projects", (req, res) => {
 
 app.get("/about", (req, res) => {
     res.render("about.ejs" , {
-        pageCss: "/styles/about-contact.css"
+        pageCss: "/styles/about.css"
     });
 });
 
